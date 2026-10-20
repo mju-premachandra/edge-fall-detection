@@ -1,0 +1,183 @@
+timestamp,time_s,acc_x_g,acc_y_g,acc_z_g,gyro_x_deg_s,gyro_y_deg_s,gyro_z_deg_s,subject_id,trial_activity_id,trial_id,frame_activity_id,frame_activity,recording_id,split,usable_sensor_and_label
+2018-07-10 13:32:14.407850,0.0,0.676,0.609,-0.144,11.707,13.354,-4.207,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.457984,0.050134,0.676,0.609,-0.144,11.707,13.354,-4.207,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.530181,0.122331,0.711,0.587,-0.149,3.841,-1.463,-2.988,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.606390,0.19854,0.755,0.561,-0.146,0.061,-8.171,0.0,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.660535,0.252685,0.735,0.574,-0.133,0.122,-6.463,0.061,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.708668,0.300818,0.721,0.587,-0.142,-6.707,-1.463,-0.061,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.755794,0.347944,0.721,0.587,-0.142,-6.951,-2.805,0.061,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.798916,0.391066,0.704,0.596,-0.176,-3.232,-8.659,-0.915,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.859076,0.451226,0.704,0.596,-0.176,-0.915,-6.159,-1.89,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.911221,0.503371,0.661,0.601,-0.195,-4.756,-8.171,-3.537,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:14.969376,0.561526,0.571,0.615,-0.262,-7.256,-32.927,-6.341,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.016506,0.608656,0.571,0.615,-0.262,-7.256,-71.768,-10.976,4,5,1,7,Standing,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.064635,0.656785,0.511,0.649,-0.288,-38.171,-83.537,-3.78,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.109761,0.701911,0.485,0.541,-0.26,-46.646,-88.232,-17.622,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.168919,0.761069,0.485,0.541,-0.26,-49.146,-108.902,-37.561,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.236104,0.828254,0.612,0.689,-0.345,-13.78,-52.378,-42.317,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.297272,0.889422,0.452,0.768,-0.326,-9.39,-34.939,-16.951,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.343396,0.935546,0.376,0.635,-0.263,0.61,-13.72,-0.915,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.392532,0.984682,0.376,0.635,-0.263,-38.232,-52.988,-13.537,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.437652,1.029802,0.401,0.625,-0.31,-29.573,-53.841,-6.341,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.501324,1.093474,0.512,0.735,-0.454,38.841,10.61,-37.439,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.555972,1.148122,0.512,0.735,-0.454,148.72,67.744,-7.744,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.673290,1.26544,0.417,0.771,-0.652,68.598,-5.0,-7.378,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.718915,1.311065,0.417,0.771,-0.652,64.756,-27.256,3.598,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.766448,1.358598,0.367,0.672,-0.692,65.488,-90.0,7.195,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.813576,1.405726,0.367,0.672,-0.692,39.39,-23.11,13.841,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.871737,1.463887,0.285,0.583,-0.66,6.524,18.11,28.598,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.930900,1.52305,0.271,0.471,-0.592,0.061,13.232,37.866,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:15.985044,1.577194,0.263,0.523,-0.533,-7.073,59.695,36.951,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.031172,1.623322,0.263,0.523,-0.533,-34.634,83.049,15.427,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.079301,1.671451,0.283,0.372,-0.508,-70.549,52.927,61.098,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.125427,1.717577,0.283,0.372,-0.508,-83.476,40.305,56.28,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.186593,1.778743,0.257,0.295,-0.275,19.512,66.098,16.159,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.246758,1.838908,0.353,0.75,-0.364,-127.256,44.329,28.598,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.303414,1.895564,0.626,0.236,-0.127,-151.89,171.524,117.5,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.345030,1.93718,0.626,0.236,-0.127,-142.622,142.927,166.463,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.399175,1.991325,2.219,-0.096,0.094,-105.793,37.317,189.817,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.453322,2.045472,2.219,-0.096,0.094,-8.049,-20.366,394.085,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.520502,2.112652,2.761,-0.027,0.092,374.939,325.183,34.268,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.579660,2.17181,-0.12,0.173,0.824,140.183,92.134,298.72,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.626285,2.218435,-0.015,0.284,0.103,-43.293,-112.988,24.451,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.677922,2.270072,-0.015,0.284,0.103,-422.988,106.585,165.305,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.727054,2.319204,-0.128,-0.935,-0.183,-229.512,162.744,77.988,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.782203,2.374353,0.011,-0.726,1.351,492.256,381.22,-47.195,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.829328,2.421478,0.011,-0.726,1.351,-29.329,157.134,23.171,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.876459,2.468609,-0.145,-1.262,1.479,-137.073,-30.061,46.585,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:16.923585,2.515735,-0.145,-1.262,1.479,36.22,9.817,44.634,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.032881,2.625031,-0.116,-0.125,0.399,57.012,-32.744,-27.805,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.097052,2.689202,-0.116,-0.125,0.399,99.39,15.915,-31.402,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.145186,2.737336,-0.042,0.246,0.64,13.598,12.378,-25.488,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.196322,2.788472,0.76,-0.547,0.978,-144.695,-79.451,6.341,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.251474,2.843624,0.76,-0.547,0.978,-85.244,-224.634,-57.744,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.304616,2.896766,1.003,-0.949,0.934,89.39,63.841,-32.622,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.359768,2.951918,0.333,-0.056,0.944,176.342,92.439,-50.366,4,5,1,5,Fall while attempting to sit,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.414915,3.007065,0.333,-0.056,0.944,32.073,80.366,3.78,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.474079,3.066229,0.075,-0.052,0.572,18.659,-49.146,4.695,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.520707,3.112857,0.398,-0.234,0.819,11.159,-39.573,5.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.569906,3.162056,0.398,-0.234,0.819,-11.098,-17.012,8.659,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.612018,3.204168,0.478,-0.481,1.207,-11.89,-0.488,4.207,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.677198,3.269348,0.428,-0.068,1.095,61.402,-18.293,-17.561,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.725332,3.317482,0.428,-0.068,1.095,4.695,15.061,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.783490,3.37564,0.353,-0.092,0.758,-6.829,-18.963,2.927,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.828112,3.420262,0.432,-0.191,0.731,-1.22,-15.366,1.646,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.876744,3.468894,0.432,-0.191,0.731,-8.72,5.732,1.951,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.922870,3.51502,0.449,-0.281,1.012,-1.037,17.622,-1.463,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:17.986042,3.578192,0.381,-0.234,1.117,9.146,6.829,-1.463,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.041194,3.633344,0.381,-0.234,1.117,5.122,-1.037,-0.732,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.094336,3.686486,0.353,-0.146,0.869,0.915,-9.329,-1.402,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.140464,3.732614,0.394,-0.155,0.79,-0.793,-7.744,1.341,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.189596,3.781746,0.394,-0.155,0.79,3.293,-1.037,2.012,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.235725,3.827875,0.434,-0.233,0.99,4.024,2.927,2.256,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.293880,3.88603,0.434,-0.233,0.99,-5.976,-2.317,3.841,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.399169,3.991319,0.403,-0.172,0.88,5.0,2.073,-1.768,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.460336,4.052486,0.359,-0.144,0.879,5.732,7.439,-0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.524510,4.11666,0.359,-0.144,0.879,-1.585,3.598,2.012,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.580159,4.172309,0.397,-0.194,0.97,-0.488,-2.439,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.629290,4.22144,0.432,-0.211,0.971,0.793,-3.293,-1.098,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.673909,4.266059,0.432,-0.211,0.971,-0.061,-1.585,-0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.719531,4.311681,0.401,-0.187,0.9,1.463,1.22,0.0,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.768161,4.360311,0.401,-0.187,0.9,1.463,2.195,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.813783,4.405933,0.384,-0.184,0.901,0.549,1.341,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.873442,4.465592,0.407,-0.199,0.952,2.866,0.0,-0.671,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.933603,4.525753,0.407,-0.199,0.952,3.841,1.402,-1.159,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:18.986745,4.578895,0.414,-0.188,0.963,1.159,-0.183,-0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.032367,4.624517,0.394,-0.172,0.916,-0.488,1.037,0.732,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.078991,4.671141,0.394,-0.172,0.916,0.427,2.012,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.136144,4.728294,0.389,-0.178,0.934,1.037,-0.915,-0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.188785,4.780935,0.405,-0.186,0.944,0.61,-0.793,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.235409,4.827559,0.405,-0.186,0.944,0.976,0.244,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.285543,4.877693,0.404,-0.183,0.939,0.915,-0.122,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.328658,4.920808,0.404,-0.183,0.939,1.159,0.366,0.0,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.386814,4.978964,0.399,-0.182,0.93,1.22,1.037,-0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.454494,5.046644,0.396,-0.181,0.936,2.317,0.976,-0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.516661,5.108811,0.397,-0.177,0.945,2.073,0.61,-0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.562283,5.154433,0.397,-0.177,0.945,1.159,0.183,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.612417,5.204567,0.4,-0.174,0.938,0.305,-0.915,0.305,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.657266,5.249416,0.4,-0.175,0.934,0.122,-0.061,0.305,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.760545,5.352695,0.396,-0.179,0.939,1.951,2.012,-0.61,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.825722,5.417872,0.396,-0.179,0.941,1.098,-0.244,-0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.875858,5.468008,0.396,-0.179,0.941,0.488,0.549,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.921984,5.514134,0.397,-0.175,0.941,1.402,0.61,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:19.970115,5.562265,0.397,-0.175,0.941,1.463,-0.244,0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.016241,5.608391,0.398,-0.171,0.939,0.976,0.427,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.072394,5.664544,0.396,-0.171,0.942,1.341,0.732,0.0,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.140581,5.732731,0.395,-0.169,0.942,0.427,0.0,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.192720,5.78487,0.395,-0.169,0.942,1.037,-0.061,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.239852,5.832002,0.397,-0.173,0.94,1.159,-0.244,0.0,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.286977,5.879127,0.397,-0.173,0.94,-0.183,-0.549,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.344135,5.936285,0.398,-0.174,0.939,0.305,0.0,0.549,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.402290,5.99444,0.397,-0.172,0.938,0.61,0.366,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.467469,6.059619,0.396,-0.169,0.94,0.549,1.768,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.522619,6.114769,0.396,-0.169,0.94,2.256,1.89,-0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.567741,6.159891,0.394,-0.17,0.946,1.037,0.488,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.612862,6.205012,0.392,-0.171,0.945,0.244,0.427,0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.658992,6.251142,0.392,-0.171,0.945,-1.524,0.183,1.037,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.721661,6.313811,0.396,-0.169,0.938,0.915,-0.549,0.305,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.772798,6.364948,0.395,-0.173,0.939,0.305,0.793,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.828947,6.421097,0.395,-0.173,0.939,1.159,0.61,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.876073,6.468223,0.392,-0.171,0.944,1.646,0.61,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.923703,6.515853,0.392,-0.171,0.944,0.671,0.61,0.305,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:20.969826,6.561976,0.393,-0.169,0.944,0.549,-0.183,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.052554,6.644704,0.394,-0.17,0.942,-0.61,-0.305,0.854,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.171377,6.763527,0.394,-0.173,0.942,0.427,0.427,0.488,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.233548,6.825698,0.394,-0.173,0.942,-0.061,0.183,0.549,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.282680,6.87483,0.393,-0.174,0.942,-0.427,1.22,0.61,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.344850,6.937,0.392,-0.173,0.942,1.646,-0.244,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.390974,6.983124,0.392,-0.173,0.942,0.854,-0.061,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.458157,7.050307,0.392,-0.172,0.942,1.768,-0.549,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.514812,7.106962,0.395,-0.168,0.941,0.366,-0.915,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.562442,7.154592,0.395,-0.168,0.941,0.854,-0.122,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.609570,7.20172,0.395,-0.173,0.941,1.037,0.488,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.659708,7.251858,0.392,-0.172,0.941,0.915,0.305,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.701819,7.293969,0.392,-0.172,0.941,1.159,0.244,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.762987,7.355137,0.392,-0.168,0.944,1.524,0.061,0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.816131,7.408281,0.396,-0.169,0.944,0.122,-0.549,0.61,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.860251,7.452401,0.396,-0.169,0.944,0.0,-0.305,0.61,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.906374,7.498524,0.396,-0.172,0.941,-0.366,-0.244,0.732,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:21.954309,7.546459,0.396,-0.172,0.941,0.061,0.488,0.549,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.001434,7.593584,0.392,-0.171,0.94,0.427,0.61,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.058593,7.650743,0.393,-0.171,0.94,0.366,0.0,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.126781,7.718931,0.393,-0.171,0.94,0.183,0.366,0.305,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.173906,7.766056,0.394,-0.172,0.944,2.317,0.732,-0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.218528,7.810678,0.393,-0.17,0.942,1.768,-0.244,-0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.269165,7.861315,0.393,-0.17,0.942,1.22,0.244,-0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.312282,7.904432,0.393,-0.166,0.941,1.402,0.305,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.373947,7.966097,0.395,-0.166,0.943,0.854,-0.366,0.305,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.492765,8.084915,0.394,-0.17,0.943,1.646,0.61,-0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.548915,8.141065,0.392,-0.166,0.942,0.732,0.549,0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.593032,8.185182,0.392,-0.166,0.942,1.159,0.244,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.643168,8.235318,0.392,-0.164,0.945,1.402,0.061,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.689292,8.281442,0.395,-0.167,0.944,-0.183,-0.427,0.549,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.749957,8.342107,0.395,-0.167,0.944,-0.122,-0.122,0.671,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.803603,8.395753,0.394,-0.167,0.941,0.183,0.305,0.488,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.843710,8.43586,0.394,-0.167,0.941,0.366,0.366,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.890841,8.482991,0.392,-0.166,0.941,0.122,0.488,0.488,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.938969,8.531119,0.392,-0.168,0.943,0.305,0.061,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:22.984095,8.576245,0.392,-0.168,0.943,0.427,-0.305,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.050271,8.642421,0.394,-0.168,0.941,1.22,1.22,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.108432,8.700582,0.391,-0.165,0.945,2.378,0.732,-0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.157563,8.749713,0.391,-0.165,0.945,1.524,0.122,-0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.202688,8.794838,0.389,-0.164,0.942,0.854,0.488,0.0,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.252822,8.844972,0.393,-0.164,0.945,1.524,-0.488,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.297948,8.890098,0.393,-0.164,0.945,0.793,-0.183,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.357107,8.949257,0.393,-0.165,0.943,0.61,0.488,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.422284,9.014434,0.39,-0.164,0.944,1.524,0.793,-0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.474926,9.067076,0.39,-0.164,0.944,1.22,0.671,-0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.520551,9.112701,0.389,-0.16,0.945,1.28,0.427,0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.569183,9.161333,0.39,-0.161,0.947,0.305,-0.305,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.624834,9.216984,0.39,-0.161,0.947,-0.549,-0.793,0.793,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.691013,9.283163,0.392,-0.164,0.943,0.488,0.122,0.427,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.758195,9.350345,0.391,-0.163,0.942,0.366,0.305,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.851450,9.4436,0.389,-0.165,0.942,0.488,0.122,0.305,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.892564,9.484714,0.392,-0.165,0.947,1.28,0.305,0.0,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.944703,9.536853,0.392,-0.165,0.947,1.28,0.244,0.122,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:23.989824,9.581974,0.39,-0.162,0.947,0.61,0.488,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:24.043968,9.636118,0.39,-0.162,0.947,-0.366,1.037,0.61,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:24.101121,9.693271,0.387,-0.16,0.944,1.098,-0.427,0.183,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:24.156769,9.748919,0.39,-0.163,0.943,0.488,0.366,0.244,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:24.203394,9.795544,0.39,-0.163,0.943,1.28,0.244,0.061,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:24.252062,9.844212,0.392,-0.161,0.95,0.183,-0.244,0.549,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:24.298186,9.890336,0.39,-0.163,0.944,-0.305,0.61,0.671,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True
+2018-07-10 13:32:24.355844,9.947994,0.39,-0.163,0.944,0.549,1.28,0.366,4,5,1,11,Lying,Subject4Activity5Trial1,validation,True

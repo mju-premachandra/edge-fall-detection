@@ -1,0 +1,335 @@
+{
+  "description": "Integrity hashes for processed files included in this package. Original source URLs/raw hashes are in dataset_sources.json.",
+  "files": [
+    {
+      "path": "data/processed/test/Subject5Activity10Trial1_belt.csv",
+      "bytes": 75750,
+      "sha256": "f287913ba0ef717248aa1360521f15d9b4a4908ef291c48220b1d0e0b29ce5a2"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity11Trial1_belt.csv",
+      "bytes": 136168,
+      "sha256": "335dba7dcdf185d604fef1629b97e5f52ad6978ab1215bc9d6201934aaff8847"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity1Trial1_belt.csv",
+      "bytes": 23491,
+      "sha256": "1d7fb70e1304ac3c8891470de1be8b651243813f2027a0987770b894491f5c6f"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity2Trial1_belt.csv",
+      "bytes": 25792,
+      "sha256": "8ef02a25b4943bb06c71b04f3137bd1e36d6261f7e29bf7c7fe9548d180313e7"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity3Trial1_belt.csv",
+      "bytes": 24248,
+      "sha256": "77968ac0519346f96b32882fc5fb4b79d95d66729b3034801713ea268dd35649"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity4Trial1_belt.csv",
+      "bytes": 24842,
+      "sha256": "36e11bc24b3936a92e978eda849eab04a1692e20447b7f32e8c4d9a4943859c9"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity5Trial1_belt.csv",
+      "bytes": 25273,
+      "sha256": "c9c596c2cc39f9708aab7651ab19d94b6ad9ac9bf948bb8eda38b3c2c8ab22ca"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity6Trial1_belt.csv",
+      "bytes": 141960,
+      "sha256": "92cf4ea6eb5ceeb17d1461608debc8a9ccd0893155bdf7646ddfb50a618ff3f0"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity7Trial1_belt.csv",
+      "bytes": 135524,
+      "sha256": "46a03a51b4d18747e2b1dcc5784470babab1694874bacf470ee8b33e8802ed30"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity8Trial1_belt.csv",
+      "bytes": 136525,
+      "sha256": "5ee7b670fe05938ffe310408281597ecbcb7dec0b6c0504735c8f64322b2af24"
+    },
+    {
+      "path": "data/processed/test/Subject5Activity9Trial1_belt.csv",
+      "bytes": 24171,
+      "sha256": "892e6a3ad132f6cf8ad17a379490bc61bf626a016f45fb1cf4972eeae5ad103e"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity10Trial1_belt.csv",
+      "bytes": 56973,
+      "sha256": "290961ad002fd53e92a48ef05aaa4f723278d4a74a7040227bee94f82a110f0c"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity11Trial1_belt.csv",
+      "bytes": 110123,
+      "sha256": "e9d69f4b04ff8f627d879ed39ca12bf9003a31cbf755f880b8d65fceb4f85a11"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity1Trial1_belt.csv",
+      "bytes": 19167,
+      "sha256": "32d2e539a1bd6b362939b7ddebeef02192caa7ee5b79c6c4aef53ca5be3ba4e6"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity2Trial1_belt.csv",
+      "bytes": 19046,
+      "sha256": "af7949418f25e1f446d06c5e6716219510a6055d881f90c358d77c9f666c0ee3"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity3Trial1_belt.csv",
+      "bytes": 18890,
+      "sha256": "cf39d12c907d0e04e0264ab35baefc45b0459490559a8cc91936c5648eadf45f"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity4Trial1_belt.csv",
+      "bytes": 18589,
+      "sha256": "b3ef07c9f7ae57a0055ca2bb637226d4c1fdb5bc04d99e35cad3dc4f91edb31c"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity5Trial1_belt.csv",
+      "bytes": 19242,
+      "sha256": "12c48d0d4a535479aa95aebc6e41b4f64fab31fae247f65a27a24a432dc69033"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity6Trial1_belt.csv",
+      "bytes": 112883,
+      "sha256": "562339b8dbeb5bc2eeadacc8c81a4d3be701d79a95cc8ef110f4c755cf920cd3"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity7Trial1_belt.csv",
+      "bytes": 108830,
+      "sha256": "3135d5b4965a087b61d1068a64bc65be877a0230fafcd7cc5f5f82d6c4d4bd3a"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity8Trial1_belt.csv",
+      "bytes": 107325,
+      "sha256": "88eb9b568b75716b2c17470f3436c555a15ddc32c3eacbecc1b70a02566a4708"
+    },
+    {
+      "path": "data/processed/test/Subject6Activity9Trial1_belt.csv",
+      "bytes": 18590,
+      "sha256": "315a25c6e644c649cea809a0eb56bb0df422a4956e7a78d6347756041a62c1de"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity10Trial1_belt.csv",
+      "bytes": 69884,
+      "sha256": "2fb524d763b1ebc9da63b67958494e76303fc15db7bceb5e145a7716a4e5a25c"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity11Trial1_belt.csv",
+      "bytes": 135247,
+      "sha256": "2d3109835472d13fa2d0a34bcbd3d0b0c043e30c95483503f394891e05b9c171"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity1Trial1_belt.csv",
+      "bytes": 25413,
+      "sha256": "98bb3e20f48f389d26be0993aa8e149194b49ba86c982850f204a956ed725776"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity2Trial1_belt.csv",
+      "bytes": 20686,
+      "sha256": "5cd127fb7bc6d44ee5b34fb24b15282a7856e911eec95b6d0b8c61eeba2284ad"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity3Trial1_belt.csv",
+      "bytes": 24636,
+      "sha256": "c42fb70c4607851be7eed034238ca4e12f4c1e88eeb0a12653127b944e669007"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity4Trial1_belt.csv",
+      "bytes": 23891,
+      "sha256": "9bec2e25ff24b2eba247794fe78ee0b8d8986af12e257e98a8c669c76d956797"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity5Trial1_belt.csv",
+      "bytes": 24974,
+      "sha256": "b43b4d3e1434da86880c727caa74c0dfc6e817531a5a9bf45c534ea69a0a7268"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity6Trial1_belt.csv",
+      "bytes": 143692,
+      "sha256": "aebe8a84ca4331d6c30e41df8695d24f72b329c147ea8ce4dbd24ca663564ed6"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity7Trial1_belt.csv",
+      "bytes": 140577,
+      "sha256": "eec95058831d9eddae86adf4970f7030ad1d3754f83330aa7acc02d9534d346b"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity8Trial1_belt.csv",
+      "bytes": 134552,
+      "sha256": "9df7a65d793221ba03dbdf78521e10aa0c1b96fb5202642685a263abdd5910d9"
+    },
+    {
+      "path": "data/processed/train/Subject1Activity9Trial1_belt.csv",
+      "bytes": 23162,
+      "sha256": "5259768e8879dc8fdcc4e051a285670e3f74d22b4c81b6d383a7660911c36b9d"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity10Trial1_belt.csv",
+      "bytes": 60448,
+      "sha256": "8dd97fc538bebe1690805668fbd6c11d68f251e7979d256653167ebf0247acb8"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity11Trial1_belt.csv",
+      "bytes": 123716,
+      "sha256": "67a0781a5c5929bf20af708399f75fbed8ba5cde457b88bd3049700a0d9e1519"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity1Trial1_belt.csv",
+      "bytes": 22274,
+      "sha256": "067ae1a3077da5bbea0fa8dcda36f8e592f5d52b6a1f72721d7dcc742409698a"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity2Trial1_belt.csv",
+      "bytes": 22678,
+      "sha256": "6c9a703678fd3ac39f32ec238229a455df59116e106635ec09aa60d541e6efd0"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity3Trial1_belt.csv",
+      "bytes": 22628,
+      "sha256": "1d40319df4cd588a9fd48dfd20ad0028e163996b85e587ab9e4be3d31c9a8d70"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity4Trial1_belt.csv",
+      "bytes": 22801,
+      "sha256": "8bf2077138a1f3747a3a4d37c3f3ef9d71a29b1718426dd161dbf298c71af788"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity5Trial1_belt.csv",
+      "bytes": 22431,
+      "sha256": "443c11fb6e83f0784b712ede3a1931a4fa7ebacb2164de9fbf9ce804d31a8b32"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity6Trial1_belt.csv",
+      "bytes": 133324,
+      "sha256": "deccfee181a2289e49112b289455db6e1b9075077e96ca5d3c9295b28afdb9bc"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity7Trial1_belt.csv",
+      "bytes": 136470,
+      "sha256": "8c5f6a528e36f896ca3fe1005a320dbee31558b48d0aedf828abedfed1950818"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity8Trial1_belt.csv",
+      "bytes": 132750,
+      "sha256": "55767dc63a5f7ed05d2ff173ddb34851465386a687065aeb5c7d6a97f7d719dc"
+    },
+    {
+      "path": "data/processed/train/Subject2Activity9Trial1_belt.csv",
+      "bytes": 21074,
+      "sha256": "d66e6f9813634c88cb3c695a58249d38a8ace88b28b21048ab421fa2fbc3a50d"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity10Trial1_belt.csv",
+      "bytes": 69213,
+      "sha256": "fdbfac233cab7ae55e1195d778fa4d9e6d098da7f1afe7e1dba0f266748ee57c"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity11Trial1_belt.csv",
+      "bytes": 135958,
+      "sha256": "14da1c3bfb8cd613396be0a996a0f053e7f8cc0f1b72c5911871cebda190aec6"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity1Trial1_belt.csv",
+      "bytes": 24606,
+      "sha256": "7df96aa6bfec8cd79d5f70ec8f54e7d3415c4ba263cfb430b2df907775ffa79c"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity2Trial1_belt.csv",
+      "bytes": 24752,
+      "sha256": "419f290f50101dc489e4306af5f4d7561a9fab302ab6cba3083584fc8ea36369"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity3Trial1_belt.csv",
+      "bytes": 24330,
+      "sha256": "59e9eefd66c43db51c0971761a6e7c9210fd6d70886d53dbc91ee3f8afb58d2c"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity4Trial1_belt.csv",
+      "bytes": 24508,
+      "sha256": "4f9c6c52c13a32acf079d3a234a68e4312ec220def4582173a5f9b687731cd9e"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity5Trial1_belt.csv",
+      "bytes": 24141,
+      "sha256": "d97b60306eb5db9166f755d3362f2fb416d89449f27883951570446540089f68"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity6Trial1_belt.csv",
+      "bytes": 145090,
+      "sha256": "4769d4ef703ecd046433b7888919cd613277898d232cdaa550f4cd4e77d0bab1"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity7Trial1_belt.csv",
+      "bytes": 140046,
+      "sha256": "b0b384302f049b721030795142ba963ab9b0daf7f007dcfa743e863838194c8d"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity8Trial1_belt.csv",
+      "bytes": 135938,
+      "sha256": "13083ae91f9a98e312a07bf50bfc8af48aff9678d6d3f422724c9e9ec92a1bd1"
+    },
+    {
+      "path": "data/processed/train/Subject3Activity9Trial1_belt.csv",
+      "bytes": 22760,
+      "sha256": "a64173237dd01de291c4ecdcbd56262a0c901a50fc26a4ee79e23722ab161d3d"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity10Trial1_belt.csv",
+      "bytes": 73660,
+      "sha256": "e07be5349daa5e50ee9fa0c5ffcbb1141975e85a2e61a47c0fd73040d794f095"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity11Trial1_belt.csv",
+      "bytes": 138349,
+      "sha256": "65dff1dbf1eed60fb3c1fdad419ed7f398ddb022a7411f58fd4aa873dd1faf6c"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity1Trial1_belt.csv",
+      "bytes": 24563,
+      "sha256": "9ff10c9281e6fd1c6575a21faa51315df01fbcde6ff8ccb731c1ce1152562af1"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity2Trial1_belt.csv",
+      "bytes": 24487,
+      "sha256": "b69e59c7e378ac1e8e4cbfc42923d1c69b3b174c5fdb823ec73a829ace209c19"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity3Trial1_belt.csv",
+      "bytes": 23826,
+      "sha256": "e5d0c1f4c0f243a4949a508c2b1f0adef3badfc24ef73e4119c9256ebeededa8"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity4Trial1_belt.csv",
+      "bytes": 24680,
+      "sha256": "37fb73cbeb44865c399da8da4bc58127ab09064cb8a638d147c0e0f83dab07b3"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity5Trial1_belt.csv",
+      "bytes": 24641,
+      "sha256": "07ee6048e0410926a6f1ab9a5421bfd6703508eb4a8c625a1a806eff097b7d9d"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity6Trial1_belt.csv",
+      "bytes": 144299,
+      "sha256": "cc41386bd7784156be4ee0a58e0c7d1673666561c6a73ca35b867d0c985bb5df"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity7Trial1_belt.csv",
+      "bytes": 142061,
+      "sha256": "3e7df1b3e840ee3c8f7957389d2c4a406d12061edd7da62843d9f96a684545ea"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity8Trial1_belt.csv",
+      "bytes": 138680,
+      "sha256": "e4c6dbf04ecedacc2342a21601344395e029e533d39207745c921359e452f6c7"
+    },
+    {
+      "path": "data/processed/validation/Subject4Activity9Trial1_belt.csv",
+      "bytes": 23880,
+      "sha256": "9d8b8b6cb857741a6d384f49ca102f4960b1484e15e0eac1a177375a9758e709"
+    }
+  ]
+}

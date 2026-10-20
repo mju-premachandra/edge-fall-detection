@@ -1,0 +1,193 @@
+timestamp,time_s,acc_x_g,acc_y_g,acc_z_g,gyro_x_deg_s,gyro_y_deg_s,gyro_z_deg_s,subject_id,trial_activity_id,trial_id,frame_activity_id,frame_activity,recording_id,split,usable_sensor_and_label
+2018-07-06 10:43:05.463471,0.0,-0.451,-0.957,-0.015,4.817,10.183,3.171,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.506085,0.042614,-0.451,-0.957,-0.015,1.951,-4.756,-3.78,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.572913,0.109442,-0.475,-0.958,-0.019,-5.305,7.317,-6.098,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.621544,0.158073,-0.421,-0.918,-0.033,-3.354,9.207,-3.415,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.663157,0.199686,-0.421,-0.918,-0.033,6.098,16.89,6.098,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.708277,0.244806,-0.396,-0.933,-0.035,6.524,11.22,6.28,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.756409,0.292938,-0.396,-0.933,-0.035,5.671,-11.829,1.768,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.805541,0.34207,-0.448,-0.968,-0.057,7.073,-16.89,2.378,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.861694,0.398223,-0.459,-0.933,-0.055,-6.098,-10.427,-4.878,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.903806,0.440335,-0.459,-0.933,-0.055,-4.817,-9.451,-3.415,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:05.957954,0.494483,-0.455,-0.93,-0.038,5.183,3.841,4.695,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.006083,0.542612,-0.455,-0.93,-0.038,3.232,-0.183,1.463,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.054216,0.590745,-0.439,-0.947,-0.028,6.159,14.634,4.512,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.099335,0.635864,-0.452,-0.918,-0.045,-8.415,-28.415,-13.171,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.240721,0.77725,-0.41,-0.953,-0.052,-26.524,5.61,-17.683,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.376584,0.913113,-0.461,-0.921,-0.048,32.195,28.963,19.451,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.428723,0.965252,-0.423,-0.944,-0.064,18.049,19.207,13.293,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.474344,1.010873,-0.423,-0.944,-0.064,4.512,-2.622,4.634,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.522976,1.059505,-0.429,-0.914,-0.061,7.927,-8.72,3.598,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.569099,1.105628,-0.429,-0.914,-0.061,10.976,5.549,7.378,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.628261,1.16479,-0.434,-0.926,-0.079,15.305,-7.439,6.402,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.684914,1.221443,-0.456,-0.925,-0.066,8.537,-6.829,2.378,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.725524,1.262053,-0.456,-0.925,-0.066,23.11,3.841,10.366,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.780673,1.317202,-0.465,-0.958,-0.039,-11.037,4.817,-7.012,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.826588,1.363117,-0.446,-0.862,0.063,-20.488,7.683,-12.683,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.867697,1.404226,-0.446,-0.862,0.063,-19.939,28.72,-7.317,5,2,1,7,Standing,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.924854,1.461383,-0.306,-0.712,0.004,-21.22,28.232,-7.744,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:06.979000,1.515529,-0.216,-0.84,-0.213,43.232,33.537,24.756,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.022117,1.558646,-0.216,-0.84,-0.213,-21.707,3.049,-19.878,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.067236,1.603765,-0.305,-0.792,-0.111,-83.354,-29.39,-66.707,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.116372,1.652901,-0.305,-0.792,-0.111,-51.951,-22.805,-43.232,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.160489,1.697018,-0.261,-0.846,-0.154,21.28,40.183,3.598,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.219652,1.756181,-0.25,-0.54,-0.084,-61.463,-39.878,-48.537,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.259758,1.796287,-0.25,-0.54,-0.084,-65.549,-38.841,-43.354,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.302878,1.839407,-0.372,-0.543,0.113,-45.427,-19.756,-47.073,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.351006,1.887535,-0.372,-0.543,0.113,-9.329,-30.793,-51.707,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.397632,1.934161,-0.754,-1.361,0.166,19.817,-65.122,-41.768,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.443755,1.980284,-0.754,-1.361,0.166,151.281,-99.878,45.732,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.491381,2.02791,-1.174,-3.019,0.184,163.11,212.927,159.695,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.543045,2.079574,-0.429,-1.169,0.042,-15.244,336.098,33.537,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.583152,2.119681,-0.429,-1.169,0.042,-124.878,-40.793,-9.024,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.630280,2.166809,-0.334,-0.258,0.164,-153.902,-235.549,-76.829,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.726540,2.263069,-0.338,-0.467,0.213,-272.744,-7.134,-188.72,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.773665,2.310194,-0.291,-0.361,0.095,-268.963,73.049,-45.366,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.822800,2.359329,-0.291,-0.361,0.095,-223.659,-24.39,2.439,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.863910,2.400439,-0.407,-0.867,-0.312,165.427,-297.805,222.195,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.911040,2.447569,-0.407,-0.867,-0.312,602.439,-91.707,151.768,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:07.958165,2.494694,-0.8,-1.616,-0.755,422.744,-1.463,60.671,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.004792,2.541321,-0.8,-1.616,-0.755,-63.598,-170.183,5.915,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.055428,2.591957,-1.031,-1.602,-0.256,68.11,-127.134,-11.402,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.106567,2.643096,-0.486,-1.033,0.129,-25.366,19.329,19.451,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.149683,2.686212,-0.486,-1.033,0.129,5.061,180.854,16.585,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.192300,2.728829,-0.292,-0.601,0.127,45.976,122.5,15.976,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.241460,2.777989,-0.292,-0.601,0.127,34.512,-30.61,-21.707,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.299616,2.836145,-0.456,-0.441,0.09,-14.817,7.134,0.366,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.351256,2.887785,-0.538,-0.713,0.088,3.049,61.585,55.976,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.397883,2.934412,-0.538,-0.713,0.088,-48.354,54.939,33.598,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.443507,2.980036,-0.711,-1.022,0.112,-53.232,37.988,14.695,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.489629,3.026158,-0.785,-1.105,-0.138,-12.622,15.0,-1.463,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.553802,3.090331,-0.785,-1.105,-0.138,-19.024,41.037,-4.39,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.601930,3.138459,-0.511,-0.919,-0.239,-5.915,60.305,-0.488,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.647050,3.183579,-0.386,-0.742,-0.329,-17.988,22.256,-24.878,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.692672,3.229201,-0.386,-0.742,-0.329,-22.5,29.573,-21.646,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.745312,3.281841,-0.406,-0.748,-0.4,-10.915,45.976,-17.561,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.790431,3.32696,-0.406,-0.748,-0.4,-23.659,5.305,-27.439,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.845581,3.38211,-0.503,-0.917,-0.416,-36.768,-55.732,-21.159,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.890701,3.42723,-0.479,-1.079,-0.396,16.341,46.646,21.098,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.942843,3.479372,-0.479,-1.079,-0.396,20.915,4.573,5.976,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:08.989969,3.526498,-0.492,-1.027,-0.359,-10.549,-45.671,-15.244,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.094250,3.630779,-0.459,-0.854,-0.307,20.366,25.854,4.329,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.130351,3.66688,-0.376,-0.797,-0.243,38.049,39.573,16.28,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.192516,3.729045,-0.376,-0.797,-0.243,40.488,30.0,13.415,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.244660,3.781189,-0.401,-0.763,-0.137,31.037,15.427,-4.39,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.287775,3.824304,-0.438,-0.794,0.015,112.256,26.768,-54.024,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.331897,3.868426,-0.438,-0.794,0.015,133.171,31.707,-58.293,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.382030,3.918559,-0.468,-0.915,-0.001,57.622,-21.707,-17.805,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.428157,3.964686,-0.468,-0.915,-0.001,9.207,-19.268,15.549,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.492328,4.028857,-0.493,-1.087,-0.006,43.232,47.927,51.585,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.555499,4.092028,-0.479,-1.082,-0.024,36.098,31.159,26.646,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.600618,4.137147,-0.479,-1.082,-0.024,-23.841,-2.134,-2.256,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.646741,4.18327,-0.427,-0.924,0.001,-6.768,6.159,-16.646,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.696373,4.232902,-0.451,-0.759,0.101,-26.646,-35.366,-4.268,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.741995,4.278524,-0.451,-0.759,0.101,16.159,-99.024,93.537,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.802155,4.338684,-0.458,-0.866,0.016,102.195,-38.476,39.878,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.853293,4.389822,-0.528,-0.901,0.1,-43.415,-79.39,-0.244,5,2,1,2,Forward fall using knees,Subject5Activity2Trial1,test,True
+2018-07-06 10:43:09.895404,4.431933,-0.528,-0.901,0.1,-14.451,-53.293,18.659,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:09.942535,4.479064,-0.579,-0.965,0.103,-3.049,-51.829,15.549,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:09.991667,4.528196,-0.579,-0.965,0.103,0.427,-38.11,11.098,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.037792,4.574321,-0.576,-1.005,0.052,-4.146,-12.439,9.024,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.093942,4.630471,-0.527,-0.907,0.107,-15.61,14.756,-11.28,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.135055,4.671584,-0.527,-0.907,0.107,-11.89,11.951,-8.902,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.178170,4.714699,-0.488,-0.832,0.113,-6.037,11.707,-5.793,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.224295,4.760824,-0.488,-0.832,0.113,-4.573,10.183,-5.732,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.272425,4.808954,-0.479,-0.828,0.098,1.159,12.439,-5.0,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.319051,4.85558,-0.479,-0.828,0.098,13.171,10.488,-2.073,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.377710,4.914239,-0.527,-0.864,0.15,29.634,-27.561,8.963,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.456924,4.993453,-0.551,-0.932,0.162,12.5,-79.451,14.207,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.504050,5.040579,-0.567,-1.028,0.133,-11.707,-79.512,6.829,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.553185,5.089714,-0.567,-1.028,0.133,-5.061,-33.11,-2.317,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.603318,5.139847,-0.526,-0.964,0.133,-21.037,39.085,-8.476,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.648440,5.184969,-0.47,-0.853,0.149,-11.829,53.537,-11.89,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.693560,5.230089,-0.47,-0.853,0.149,1.28,54.085,-9.939,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.756728,5.293257,-0.462,-0.829,0.13,4.878,45.549,-5.854,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.811419,5.347948,-0.496,-0.852,0.157,-8.354,-0.366,-1.585,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.858043,5.394572,-0.496,-0.852,0.157,-5.183,-29.512,5.915,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.896144,5.432673,-0.527,-0.944,0.132,0.061,-45.183,9.573,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.946280,5.482809,-0.527,-0.944,0.132,-8.232,-51.646,9.817,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:10.993405,5.529934,-0.545,-0.996,0.101,-18.11,-46.28,6.524,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.050564,5.587093,-0.517,-0.941,0.124,-20.976,-4.573,-2.988,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.102701,5.63923,-0.517,-0.941,0.124,-6.524,15.183,-6.159,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.145821,5.68235,-0.479,-0.864,0.133,-1.646,21.829,-4.39,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.192946,5.729475,-0.479,-0.864,0.133,1.524,26.037,-3.354,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.241078,5.777607,-0.472,-0.841,0.145,3.232,-10.732,0.976,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.290209,5.826738,-0.495,-0.892,0.139,14.695,-16.463,4.634,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.333329,5.869858,-0.495,-0.892,0.139,17.561,-18.72,6.159,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.382459,5.918988,-0.533,-0.965,0.118,11.89,-18.902,6.585,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.429589,5.966118,-0.533,-0.965,0.118,4.756,-16.098,4.024,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.475712,6.012241,-0.537,-0.976,0.127,-0.793,-8.78,0.244,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.521336,6.057865,-0.488,-0.924,0.142,0.122,14.817,-1.524,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.572976,6.109505,-0.488,-0.924,0.142,0.183,16.463,-1.22,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.616093,6.152622,-0.469,-0.878,0.13,-2.805,13.537,-2.561,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.663719,6.200248,-0.469,-0.878,0.13,-5.366,6.646,-1.951,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.712349,6.248878,-0.478,-0.868,0.129,-5.305,0.0,-0.488,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.864254,6.400783,-0.528,-0.942,0.123,-2.805,-6.829,2.622,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.925421,6.46195,-0.521,-0.932,0.129,-0.732,0.122,1.22,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:11.989592,6.526121,-0.521,-0.932,0.129,0.549,3.78,-0.061,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.038728,6.575257,-0.499,-0.895,0.136,0.976,3.963,-0.122,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.083847,6.620376,-0.483,-0.888,0.131,6.037,0.671,1.22,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.130977,6.667506,-0.483,-0.888,0.131,9.085,1.524,1.28,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.177100,6.713629,-0.496,-0.902,0.129,8.78,2.378,1.829,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.236262,6.772791,-0.496,-0.902,0.129,6.22,1.646,2.134,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.290407,6.826936,-0.516,-0.918,0.14,1.159,-10.854,2.439,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.335530,6.872059,-0.521,-0.926,0.146,-0.244,-9.878,1.768,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.379647,6.916176,-0.521,-0.926,0.146,-0.854,-4.451,0.732,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.428782,6.965311,-0.514,-0.9,0.167,-0.732,-2.378,0.0,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.473903,7.010432,-0.514,-0.9,0.167,1.707,-2.378,-0.427,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.530056,7.066585,-0.51,-0.881,0.189,6.463,-2.256,-1.402,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.571166,7.107695,-0.502,-0.893,0.195,11.951,0.0,-0.244,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.614784,7.151313,-0.502,-0.893,0.195,14.695,-1.829,2.256,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.661411,7.19794,-0.514,-0.946,0.145,12.5,-3.171,3.11,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.710042,7.246571,-0.514,-0.946,0.145,6.89,4.451,2.134,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.776722,7.313251,-0.509,-0.945,0.142,-7.012,6.463,-1.28,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.833876,7.370405,-0.494,-0.894,0.158,-12.012,1.463,-1.951,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.883007,7.419536,-0.488,-0.882,0.15,-8.293,0.732,-2.683,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.929631,7.46616,-0.488,-0.882,0.15,-7.622,1.89,-0.854,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:12.975754,7.512283,-0.498,-0.89,0.143,-7.378,0.976,-0.122,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.033407,7.569936,-0.498,-0.89,0.143,-9.207,-5.427,0.183,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.090561,7.62709,-0.515,-0.91,0.145,-2.439,-7.988,-0.122,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.176791,7.71332,-0.519,-0.927,0.145,3.354,5.671,1.159,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.224919,7.761448,-0.505,-0.918,0.144,4.39,7.683,0.427,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.272050,7.808579,-0.505,-0.918,0.144,4.39,5.671,-0.061,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.319175,7.855704,-0.496,-0.904,0.132,4.695,6.524,0.427,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.374825,7.911354,-0.49,-0.898,0.135,3.659,6.707,0.732,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.415433,7.951962,-0.49,-0.898,0.135,3.354,2.805,0.366,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.479102,8.015631,-0.499,-0.909,0.136,0.488,-2.561,0.793,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.523220,8.059749,-0.506,-0.916,0.145,1.951,-0.366,0.366,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.574512,8.111041,-0.506,-0.916,0.145,1.037,-2.012,0.122,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.616624,8.153153,-0.505,-0.912,0.156,0.549,-1.89,-0.61,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.675785,8.212314,-0.505,-0.912,0.156,3.476,-0.793,-0.061,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.729430,8.265959,-0.504,-0.916,0.147,2.805,-2.378,0.976,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.773048,8.309577,-0.502,-0.917,0.148,1.402,-1.22,-0.244,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.818168,8.354697,-0.502,-0.917,0.148,1.585,0.122,-0.061,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.866301,8.40283,-0.494,-0.912,0.139,-0.366,-1.098,0.061,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.911421,8.44795,-0.494,-0.912,0.139,-1.646,-2.256,-0.732,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:13.971583,8.508112,-0.492,-0.888,0.163,-3.659,-3.171,-1.585,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.039765,8.576294,-0.501,-0.892,0.178,3.049,-13.293,2.317,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.088393,8.624922,-0.512,-0.926,0.163,2.988,-11.463,1.768,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.131508,8.668037,-0.512,-0.926,0.163,4.329,-2.988,0.854,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.181140,8.717669,-0.511,-0.931,0.167,4.329,1.829,0.854,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.234282,8.770811,-0.496,-0.914,0.162,4.817,3.537,0.305,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.272382,8.808911,-0.496,-0.914,0.162,4.39,3.476,-0.427,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.320513,8.857042,-0.482,-0.894,0.166,2.5,5.671,-1.098,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.365633,8.902162,-0.482,-0.894,0.166,2.195,2.683,-0.305,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.427352,8.963881,-0.485,-0.903,0.154,0.244,-0.671,0.061,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.546673,9.083202,-0.499,-0.925,0.147,-4.329,-1.098,-0.427,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.587284,9.123813,-0.5,-0.921,0.163,-9.024,0.488,-1.463,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.628896,9.165425,-0.5,-0.921,0.163,-7.866,3.415,-2.805,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.677024,9.213553,-0.493,-0.914,0.168,-1.037,1.89,-0.427,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.726159,9.262688,-0.486,-0.909,0.15,-0.061,2.927,-0.671,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.775289,9.311818,-0.486,-0.909,0.15,-1.341,3.476,-0.61,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.828432,9.364961,-0.487,-0.904,0.147,-1.098,0.793,-0.122,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.876560,9.413089,-0.49,-0.912,0.154,-2.866,-2.866,-0.793,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.931707,9.468236,-0.49,-0.912,0.154,-0.061,-2.805,-0.061,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:14.986853,9.523382,-0.491,-0.921,0.153,2.195,-1.89,0.122,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.038992,9.575521,-0.492,-0.926,0.148,2.378,-1.098,1.28,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.083611,9.62014,-0.492,-0.926,0.148,0.671,-2.805,1.341,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.135248,9.671777,-0.493,-0.926,0.141,-1.22,-2.622,1.585,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.193402,9.729931,-0.493,-0.926,0.141,-0.183,0.549,1.22,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.242044,9.778573,-0.484,-0.912,0.144,-1.037,-2.256,1.159,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.286161,9.82269,-0.482,-0.909,0.129,-0.427,-5.793,0.976,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.339810,9.876339,-0.482,-0.909,0.129,-2.744,-4.085,0.0,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False
+2018-07-06 10:43:15.382924,9.919453,-0.488,-0.905,0.138,-3.415,-0.976,-0.366,5,2,1,20,Unmapped,Subject5Activity2Trial1,test,False

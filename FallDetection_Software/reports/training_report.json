@@ -1,0 +1,626 @@
+{
+  "created_utc": "2026-10-16T07:26:44.228713+00:00",
+  "model_sha256": "71d9f1cc35a9f9b2e5ae7e9c1345ead553b9c3e620d8c4891f82a3fe42f524c1",
+  "selection": "Maximise validation window F2; precision then smaller depth then leaf size break ties. No settings use test results.",
+  "subjects": {
+    "train": [
+      1,
+      2,
+      3
+    ],
+    "validation": [
+      4
+    ],
+    "test": [
+      5,
+      6
+    ]
+  },
+  "window_policy": {
+    "window_seconds": 1.0,
+    "step_seconds": 0.25,
+    "min_samples": 10,
+    "minimum_span_seconds": 0.8,
+    "maximum_gap_seconds": 0.25,
+    "target": "Whether the supplied activity tag at the window endpoint is 1-5 (fall); 6-11 are non-fall.",
+    "unknown_labels": "Exclude any labelled training/evaluation window containing a tag outside 1-11.",
+    "timing": "Use original elapsed timestamps. Do not resample, interpolate, or cross recording boundaries."
+  },
+  "selected": {
+    "depth": 5,
+    "min_samples_leaf": 5,
+    "fall_score_threshold": 0.65,
+    "baseline_peak_g": 1.7101874351501465
+  },
+  "candidates": [
+    {
+      "depth": 3,
+      "min_samples_leaf": 5,
+      "cutoff": 0.35,
+      "precision": 0.03496503496503497,
+      "recall": 1.0,
+      "f1": 0.06756756756756757,
+      "f2": 0.15337423312883436,
+      "confusion_matrix": [
+        [
+          289,
+          828
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 3,
+      "min_samples_leaf": 5,
+      "cutoff": 0.5,
+      "precision": 0.04341317365269461,
+      "recall": 0.9666666666666667,
+      "f1": 0.0830945558739255,
+      "f2": 0.18401015228426396,
+      "confusion_matrix": [
+        [
+          478,
+          639
+        ],
+        [
+          1,
+          29
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 3,
+      "min_samples_leaf": 5,
+      "cutoff": 0.65,
+      "precision": 0.04991394148020654,
+      "recall": 0.9666666666666667,
+      "f1": 0.09492635024549918,
+      "f2": 0.20684736091298145,
+      "confusion_matrix": [
+        [
+          565,
+          552
+        ],
+        [
+          1,
+          29
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 3,
+      "min_samples_leaf": 15,
+      "cutoff": 0.35,
+      "precision": 0.03496503496503497,
+      "recall": 1.0,
+      "f1": 0.06756756756756757,
+      "f2": 0.15337423312883436,
+      "confusion_matrix": [
+        [
+          289,
+          828
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 3,
+      "min_samples_leaf": 15,
+      "cutoff": 0.5,
+      "precision": 0.04341317365269461,
+      "recall": 0.9666666666666667,
+      "f1": 0.0830945558739255,
+      "f2": 0.18401015228426396,
+      "confusion_matrix": [
+        [
+          478,
+          639
+        ],
+        [
+          1,
+          29
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 3,
+      "min_samples_leaf": 15,
+      "cutoff": 0.65,
+      "precision": 0.04991394148020654,
+      "recall": 0.9666666666666667,
+      "f1": 0.09492635024549918,
+      "f2": 0.20684736091298145,
+      "confusion_matrix": [
+        [
+          565,
+          552
+        ],
+        [
+          1,
+          29
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 4,
+      "min_samples_leaf": 5,
+      "cutoff": 0.35,
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "f2": 0.5263157894736842,
+      "confusion_matrix": [
+        [
+          982,
+          135
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 4,
+      "min_samples_leaf": 5,
+      "cutoff": 0.5,
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "f2": 0.5263157894736842,
+      "confusion_matrix": [
+        [
+          982,
+          135
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 4,
+      "min_samples_leaf": 5,
+      "cutoff": 0.65,
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "f2": 0.5263157894736842,
+      "confusion_matrix": [
+        [
+          982,
+          135
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 4,
+      "min_samples_leaf": 15,
+      "cutoff": 0.35,
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "f2": 0.5263157894736842,
+      "confusion_matrix": [
+        [
+          982,
+          135
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 4,
+      "min_samples_leaf": 15,
+      "cutoff": 0.5,
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "f2": 0.5263157894736842,
+      "confusion_matrix": [
+        [
+          982,
+          135
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 4,
+      "min_samples_leaf": 15,
+      "cutoff": 0.65,
+      "precision": 0.18181818181818182,
+      "recall": 1.0,
+      "f1": 0.3076923076923077,
+      "f2": 0.5263157894736842,
+      "confusion_matrix": [
+        [
+          982,
+          135
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 5,
+      "min_samples_leaf": 5,
+      "cutoff": 0.35,
+      "precision": 0.12552301255230125,
+      "recall": 1.0,
+      "f1": 0.22304832713754646,
+      "f2": 0.4178272980501393,
+      "confusion_matrix": [
+        [
+          908,
+          209
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 5,
+      "min_samples_leaf": 5,
+      "cutoff": 0.5,
+      "precision": 0.25862068965517243,
+      "recall": 1.0,
+      "f1": 0.410958904109589,
+      "f2": 0.635593220338983,
+      "confusion_matrix": [
+        [
+          1031,
+          86
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 5,
+      "min_samples_leaf": 5,
+      "cutoff": 0.65,
+      "precision": 0.2777777777777778,
+      "recall": 1.0,
+      "f1": 0.43478260869565216,
+      "f2": 0.6578947368421053,
+      "confusion_matrix": [
+        [
+          1039,
+          78
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 5,
+      "min_samples_leaf": 15,
+      "cutoff": 0.35,
+      "precision": 0.11406844106463879,
+      "recall": 1.0,
+      "f1": 0.20477815699658702,
+      "f2": 0.391644908616188,
+      "confusion_matrix": [
+        [
+          884,
+          233
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 5,
+      "min_samples_leaf": 15,
+      "cutoff": 0.5,
+      "precision": 0.21428571428571427,
+      "recall": 1.0,
+      "f1": 0.35294117647058826,
+      "f2": 0.5769230769230769,
+      "confusion_matrix": [
+        [
+          1007,
+          110
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    },
+    {
+      "depth": 5,
+      "min_samples_leaf": 15,
+      "cutoff": 0.65,
+      "precision": 0.22727272727272727,
+      "recall": 1.0,
+      "f1": 0.37037037037037035,
+      "f2": 0.5952380952380952,
+      "confusion_matrix": [
+        [
+          1015,
+          102
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "windows": 1147,
+      "fall_windows": 30,
+      "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+    }
+  ],
+  "splits": {
+    "train": {
+      "recordings": 33,
+      "model": {
+        "precision": 0.5794392523364486,
+        "recall": 0.9465648854961832,
+        "f1": 0.7188405797101449,
+        "f2": 0.8401084010840109,
+        "confusion_matrix": [
+          [
+            3016,
+            90
+          ],
+          [
+            7,
+            124
+          ]
+        ],
+        "windows": 3237,
+        "fall_windows": 131,
+        "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+      },
+      "baseline": {
+        "precision": 0.19938650306748465,
+        "recall": 0.4961832061068702,
+        "f1": 0.2844638949671772,
+        "f2": 0.38235294117647056,
+        "confusion_matrix": [
+          [
+            2845,
+            261
+          ],
+          [
+            66,
+            65
+          ]
+        ],
+        "windows": 3237,
+        "fall_windows": 131,
+        "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+      },
+      "model_events": {
+        "labelled_fall_intervals": 15,
+        "detected_fall_intervals": 15,
+        "event_recall": 1.0,
+        "false_events_in_nonfall_recordings": 35,
+        "scored_nonfall_seconds": 688.1790050000001,
+        "false_events_per_scored_nonfall_hour": 183.09189772506934,
+        "median_delay_from_tagged_onset_s": 0.297836,
+        "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+      },
+      "baseline_events": {
+        "labelled_fall_intervals": 15,
+        "detected_fall_intervals": 14,
+        "event_recall": 0.9333333333333333,
+        "false_events_in_nonfall_recordings": 4,
+        "scored_nonfall_seconds": 688.1790050000001,
+        "false_events_per_scored_nonfall_hour": 20.924788311436497,
+        "median_delay_from_tagged_onset_s": 1.126307,
+        "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+      }
+    },
+    "validation": {
+      "recordings": 11,
+      "model": {
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1": 0.43478260869565216,
+        "f2": 0.6578947368421053,
+        "confusion_matrix": [
+          [
+            1039,
+            78
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "windows": 1147,
+        "fall_windows": 30,
+        "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+      },
+      "baseline": {
+        "precision": 0.10526315789473684,
+        "recall": 0.4666666666666667,
+        "f1": 0.17177914110429449,
+        "f2": 0.2766798418972332,
+        "confusion_matrix": [
+          [
+            998,
+            119
+          ],
+          [
+            16,
+            14
+          ]
+        ],
+        "windows": 1147,
+        "fall_windows": 30,
+        "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+      },
+      "model_events": {
+        "labelled_fall_intervals": 5,
+        "detected_fall_intervals": 5,
+        "event_recall": 1.0,
+        "false_events_in_nonfall_recordings": 9,
+        "scored_nonfall_seconds": 244.406105,
+        "false_events_per_scored_nonfall_hour": 132.56624665738198,
+        "median_delay_from_tagged_onset_s": 0.09726199999999996,
+        "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+      },
+      "baseline_events": {
+        "labelled_fall_intervals": 5,
+        "detected_fall_intervals": 5,
+        "event_recall": 1.0,
+        "false_events_in_nonfall_recordings": 1,
+        "scored_nonfall_seconds": 244.406105,
+        "false_events_per_scored_nonfall_hour": 14.729582961931332,
+        "median_delay_from_tagged_onset_s": 0.955578,
+        "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+      }
+    },
+    "test": {
+      "recordings": 22,
+      "model": {
+        "precision": 0.37398373983739835,
+        "recall": 0.8214285714285714,
+        "f1": 0.5139664804469274,
+        "f2": 0.6628242074927954,
+        "confusion_matrix": [
+          [
+            1978,
+            77
+          ],
+          [
+            10,
+            46
+          ]
+        ],
+        "windows": 2111,
+        "fall_windows": 56,
+        "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+      },
+      "baseline": {
+        "precision": 0.13168724279835392,
+        "recall": 0.5714285714285714,
+        "f1": 0.2140468227424749,
+        "f2": 0.3426124197002141,
+        "confusion_matrix": [
+          [
+            1844,
+            211
+          ],
+          [
+            24,
+            32
+          ]
+        ],
+        "windows": 2111,
+        "fall_windows": 56,
+        "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates."
+      },
+      "model_events": {
+        "labelled_fall_intervals": 10,
+        "detected_fall_intervals": 10,
+        "event_recall": 1.0,
+        "false_events_in_nonfall_recordings": 15,
+        "scored_nonfall_seconds": 449.282846,
+        "false_events_per_scored_nonfall_hour": 120.19154632936954,
+        "median_delay_from_tagged_onset_s": 0.19853300000000007,
+        "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+      },
+      "baseline_events": {
+        "labelled_fall_intervals": 10,
+        "detected_fall_intervals": 10,
+        "event_recall": 1.0,
+        "false_events_in_nonfall_recordings": 2,
+        "scored_nonfall_seconds": 449.282846,
+        "false_events_per_scored_nonfall_hour": 16.025539510582604,
+        "median_delay_from_tagged_onset_s": 0.7436940000000001,
+        "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+      }
+    }
+  },
+  "limits": [
+    "Six participants and one repetition per activity; only two held-out participants.",
+    "Laboratory data; not validated for construction work or unsupervised use.",
+    "Unknown labels and ineligible windows are excluded; irregular timing and gaps reduce coverage.",
+    "A leaf score is not a calibrated real-world probability.",
+    "Replay and manual synthetic input do not validate live sensors, physical haptics or on-device timing.",
+    "Reusing held-out recordings for later model choices would turn them into development data; use new people for a new final test."
+  ]
+}
