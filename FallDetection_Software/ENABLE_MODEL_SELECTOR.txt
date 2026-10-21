@@ -1,0 +1,56 @@
+RUN RANDOM FOREST IN THE EXISTING WEB SOFTWARE
+
+Prerequisite: the Random Forest add-on is already installed and its notebook has
+run successfully. This update uses YOUR existing trained_forest.json and report.
+It contains no trained models, datasets or database, so those are not replaced.
+
+INSTALL THE UPDATE
+1. Stop the running software with Ctrl+C in its terminal.
+2. Keep a copy of your existing app.py, static\app.js and templates\index.html.
+3. Extract FallDetection_ModelSelector_Update.zip to a temporary folder.
+4. Copy its contents INTO the existing FallDetection_Software folder.
+   Merge static, templates and tests folders. Replace app.py, static\app.js and
+   templates\index.html when Windows asks. model-selector.css is a new file.
+5. Open FallDetection_Software in VS Code. In Terminal > New Terminal, run:
+
+   .\start_demo.bat
+
+6. Open http://127.0.0.1:5050 and press Ctrl+F5 to reload the updated webpage.
+
+USE THE MODEL
+1. In Choose your input, find the new Prediction model dropdown.
+2. Select Random Forest.
+3. Confirm Model response shows fall-forest-v1.
+4. Select Manual input > Load walking window > Analyze input.
+5. Set Cancellation time to 30 seconds.
+6. Click Load fall window > Analyze input, then scroll down to cancel the alert.
+7. To compare, select Decision Tree and analyze the SAME input again.
+
+Switching model clears the old prediction display. Click Analyze input to get
+the new model's result. Existing alerts remain in the history with their actual
+model IDs. The event table and CSV export identify the model that created each
+alert. The displayed evaluation results also change with the selected model.
+
+You do not need JupyterLab open while using the app. The backend loads the saved
+model JSON. If you retrain a model later, restart the backend to load the new
+model and reports. Reloading the page selects Decision Tree by default.
+
+EXISTING HISTORY
+The backend automatically adds model_id to older prediction records and keeps
+the existing events. Older decisions belong to fall-tree-v1. New events use the
+model ID stored with the actual backend prediction, not a client-supplied label.
+
+IF RANDOM FOREST IS MISSING
+Check that these files exist in FallDetection_Software:
+random_forest.py
+model\trained_forest.json
+reports\random_forest_report.json
+
+Install the complete earlier add-on if any file is missing, then restart app.py.
+An explanation appears below the model selector if the forest cannot load.
+
+EVALUATION
+Random Forest results are labelled as an exploratory comparison on previously
+inspected subjects 5-6. Fewer false alarms come with lower window recall in our
+comparison. Fresh participants are needed for a new independent final test.
+No physical haptic actuator or external notifications are added by this update.

@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local application event history
+/FallDetection_Software/runtime/events.sqlite3*

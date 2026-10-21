@@ -1,0 +1,84 @@
+SECOND ML MODEL - RANDOM FOREST
+
+INSTALL THIS ADD-ON
+1. Extract FallDetection_RandomForest_Addon.zip to a temporary folder.
+2. Copy its CONTENTS into your existing FallDetection_Software folder:
+   C:\Users\janit\Desktop\Fall Detection\FallDetection_Software
+3. train_random_forest.py must be beside the existing app.py and core.py.
+   This add-on contains new files only. It does not include replacements for
+   app.py, core.py, train_model.py, trained_tree.json or the original reports.
+
+WHAT IS READY
+- model\trained_forest.json is an actually trained second model.
+- reports\RANDOM_FOREST_COMPARISON.md contains actual results.
+- 03_Random_Forest_Training.ipynb walks through training step by step.
+- Your current browser app continues using the original decision tree.
+
+VIEW THE LEARNING NOTEBOOK
+Open JupyterLab or VS Code, open FallDetection_Software, then open
+03_Random_Forest_Training.ipynb. Saved outputs show a checked run.
+Read the explanations first. To reproduce, use your Python 3.13 environment
+and run code cells in order. It needs scikit-learn, NumPy and pandas.
+Running the notebook replaces only the separate Random Forest artifacts.
+
+RETRAIN THROUGH VS CODE
+Open the existing FallDetection_Software folder, then Terminal > New Terminal.
+Enter this in PowerShell:
+
+.\train_random_forest.bat
+
+Or run these commands in PowerShell using the existing parent environment:
+
+& "..\.venv313\Scripts\python.exe" -m pip install -r requirements-training.txt
+& "..\.venv313\Scripts\python.exe" train_random_forest.py
+
+TRY THE SECOND MODEL ON SENSOR INPUT WITHOUT RETRAINING
+In the same PowerShell terminal:
+
+& "..\.venv313\Scripts\python.exe" random_forest.py --csv examples\walking_window.csv
+& "..\.venv313\Scripts\python.exe" random_forest.py --csv examples\fall_window.csv
+
+This prints each eligible window's score and suspected_fall result.
+It does not create cancellation alerts or change the browser application's model.
+
+ACTUAL COMPARISON ON PREVIOUSLY INSPECTED SUBJECTS 5-6
+                     Decision tree      Random Forest
+Accuracy                95.88%             97.30%
+Fall precision          37.40%             49.21%
+Fall window recall      82.14%             55.36%
+F1 score                 0.514              0.521
+False-positive windows     77                 32
+Missed fall windows        10                 25
+
+The forest has fewer false alarms but misses more labelled fall windows.
+It is not an unqualified improvement. Both matched 10/10 labelled fall intervals
+under the event-scoring protocol; that differs from individual window recall.
+The small laboratory subset does not establish real-world reliability.
+
+TRAINING METHOD
+Same 12 features, one-second causal windows and original eligibility rules.
+Train subjects 1-3; select settings on subject 4 only.
+100 trees; selected max_depth=5, min_samples_leaf=5, score threshold=0.65.
+Six model configurations and three thresholds were specified before this run.
+Class weights: balanced_subsample; random seed: 42.
+Selection objective: validation F2, followed by precision and simplicity ties.
+The selected forest was saved before reading comparison sensor data.
+
+The old test subjects 5-6 were already examined before this experiment, so call
+this an exploratory reused-set comparison. New participants are needed for a
+new independent final evaluation. Do not change settings based on these results
+and then report them as a fresh final test.
+
+FILES TO LEARN
+train_random_forest.py: load data, train candidates, select on validation,
+freeze the model, compare results, write reports.
+random_forest.py: load the forest and average the learned tree scores.
+model\trained_forest.json: fitted trees in a portable JSON representation.
+reports\random_forest_feature_importance.csv: training impurity importances;
+these are not causal effects or independent proof of feature usefulness.
+
+Sources:
+UP-Fall dataset: https://sites.google.com/up.edu.mx/har-up/
+Dataset paper: https://doi.org/10.3390/s19091988
+Random Forest documentation:
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
