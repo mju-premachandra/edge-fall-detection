@@ -1,0 +1,37 @@
+{
+  "algorithm": "RandomForestClassifier",
+  "n_estimators": 100,
+  "max_depth_candidates": [
+    5,
+    8,
+    null
+  ],
+  "min_samples_leaf_candidates": [
+    2,
+    5
+  ],
+  "threshold_candidates": [
+    0.35,
+    0.5,
+    0.65
+  ],
+  "max_features": "sqrt",
+  "class_weight": "balanced_subsample",
+  "random_state": 42,
+  "selection": "Validation F2, then precision, shallower depth, larger minimum leaf, higher threshold.",
+  "split": {
+    "train": [
+      1,
+      2,
+      3
+    ],
+    "validation": [
+      4
+    ],
+    "reused_test": [
+      5,
+      6
+    ]
+  },
+  "comparison_status": "Exploratory comparison on previously inspected subjects 5-6. Not a new independent final test."
+}

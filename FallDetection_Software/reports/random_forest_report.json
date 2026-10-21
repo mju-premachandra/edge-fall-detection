@@ -1,0 +1,312 @@
+{
+  "created_utc": "2026-10-18T09:02:07.026974+00:00",
+  "plan": {
+    "algorithm": "RandomForestClassifier",
+    "n_estimators": 100,
+    "max_depth_candidates": [
+      5,
+      8,
+      null
+    ],
+    "min_samples_leaf_candidates": [
+      2,
+      5
+    ],
+    "threshold_candidates": [
+      0.35,
+      0.5,
+      0.65
+    ],
+    "max_features": "sqrt",
+    "class_weight": "balanced_subsample",
+    "random_state": 42,
+    "selection": "Validation F2, then precision, shallower depth, larger minimum leaf, higher threshold.",
+    "split": {
+      "train": [
+        1,
+        2,
+        3
+      ],
+      "validation": [
+        4
+      ],
+      "reused_test": [
+        5,
+        6
+      ]
+    },
+    "comparison_status": "Exploratory comparison on previously inspected subjects 5-6. Not a new independent final test."
+  },
+  "feature_names": [
+    "acc_mean",
+    "acc_std",
+    "acc_min",
+    "acc_max",
+    "acc_range",
+    "gyro_mean",
+    "gyro_std",
+    "gyro_max",
+    "tilt_change",
+    "acc_last",
+    "gyro_last",
+    "acc_diff_max"
+  ],
+  "window_policy": {
+    "window_seconds": 1.0,
+    "step_seconds": 0.25,
+    "min_samples": 10,
+    "minimum_span_seconds": 0.8,
+    "maximum_gap_seconds": 0.25,
+    "target": "Whether the supplied activity tag at the window endpoint is 1-5 (fall); 6-11 are non-fall.",
+    "unknown_labels": "Exclude any labelled training/evaluation window containing a tag outside 1-11.",
+    "timing": "Use original elapsed timestamps. Do not resample, interpolate, or cross recording boundaries."
+  },
+  "forest_sha256": "93af14048a95e9294c78a7157f27531c045326937cd4eef4e83ae35701624c52",
+  "original_tree_sha256": "71d9f1cc35a9f9b2e5ae7e9c1345ead553b9c3e620d8c4891f82a3fe42f524c1",
+  "selected": {
+    "n_estimators": 100,
+    "max_depth": 5,
+    "min_samples_leaf": 5,
+    "threshold": 0.65
+  },
+  "splits": {
+    "train": {
+      "decision_tree": {
+        "window_metrics": {
+          "precision": 0.5794392523364486,
+          "recall": 0.9465648854961832,
+          "f1": 0.7188405797101449,
+          "f2": 0.8401084010840109,
+          "confusion_matrix": [
+            [
+              3016,
+              90
+            ],
+            [
+              7,
+              124
+            ]
+          ],
+          "windows": 3237,
+          "fall_windows": 131,
+          "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates.",
+          "accuracy": 0.9700339820821748,
+          "specificity": 0.9710238248551192,
+          "balanced_accuracy": 0.9587943551756513
+        },
+        "event_metrics": {
+          "labelled_fall_intervals": 15,
+          "detected_fall_intervals": 15,
+          "event_recall": 1.0,
+          "false_events_in_nonfall_recordings": 35,
+          "scored_nonfall_seconds": 688.1790050000001,
+          "false_events_per_scored_nonfall_hour": 183.09189772506934,
+          "median_delay_from_tagged_onset_s": 0.297836,
+          "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+        }
+      },
+      "random_forest": {
+        "window_metrics": {
+          "precision": 0.8071428571428572,
+          "recall": 0.8625954198473282,
+          "f1": 0.8339483394833949,
+          "f2": 0.8509036144578314,
+          "confusion_matrix": [
+            [
+              3079,
+              27
+            ],
+            [
+              18,
+              113
+            ]
+          ],
+          "windows": 3237,
+          "fall_windows": 131,
+          "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates.",
+          "accuracy": 0.9860982391102873,
+          "specificity": 0.9913071474565357,
+          "balanced_accuracy": 0.926951283651932
+        },
+        "event_metrics": {
+          "labelled_fall_intervals": 15,
+          "detected_fall_intervals": 15,
+          "event_recall": 1.0,
+          "false_events_in_nonfall_recordings": 9,
+          "scored_nonfall_seconds": 688.1790050000001,
+          "false_events_per_scored_nonfall_hour": 47.08077370073212,
+          "median_delay_from_tagged_onset_s": 0.53254,
+          "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+        }
+      }
+    },
+    "validation": {
+      "decision_tree": {
+        "window_metrics": {
+          "precision": 0.2777777777777778,
+          "recall": 1.0,
+          "f1": 0.43478260869565216,
+          "f2": 0.6578947368421053,
+          "confusion_matrix": [
+            [
+              1039,
+              78
+            ],
+            [
+              0,
+              30
+            ]
+          ],
+          "windows": 1147,
+          "fall_windows": 30,
+          "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates.",
+          "accuracy": 0.9319965126416739,
+          "specificity": 0.9301700984780662,
+          "balanced_accuracy": 0.965085049239033
+        },
+        "event_metrics": {
+          "labelled_fall_intervals": 5,
+          "detected_fall_intervals": 5,
+          "event_recall": 1.0,
+          "false_events_in_nonfall_recordings": 9,
+          "scored_nonfall_seconds": 244.406105,
+          "false_events_per_scored_nonfall_hour": 132.56624665738198,
+          "median_delay_from_tagged_onset_s": 0.09726199999999996,
+          "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+        }
+      },
+      "random_forest": {
+        "window_metrics": {
+          "precision": 0.40625,
+          "recall": 0.8666666666666667,
+          "f1": 0.5531914893617021,
+          "f2": 0.7065217391304348,
+          "confusion_matrix": [
+            [
+              1079,
+              38
+            ],
+            [
+              4,
+              26
+            ]
+          ],
+          "windows": 1147,
+          "fall_windows": 30,
+          "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates.",
+          "accuracy": 0.963382737576286,
+          "specificity": 0.9659803043867502,
+          "balanced_accuracy": 0.9163234855267084
+        },
+        "event_metrics": {
+          "labelled_fall_intervals": 5,
+          "detected_fall_intervals": 5,
+          "event_recall": 1.0,
+          "false_events_in_nonfall_recordings": 8,
+          "scored_nonfall_seconds": 244.406105,
+          "false_events_per_scored_nonfall_hour": 117.83666369545065,
+          "median_delay_from_tagged_onset_s": 0.09726199999999996,
+          "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+        }
+      }
+    },
+    "reused_test": {
+      "decision_tree": {
+        "window_metrics": {
+          "precision": 0.37398373983739835,
+          "recall": 0.8214285714285714,
+          "f1": 0.5139664804469274,
+          "f2": 0.6628242074927954,
+          "confusion_matrix": [
+            [
+              1978,
+              77
+            ],
+            [
+              10,
+              46
+            ]
+          ],
+          "windows": 2111,
+          "fall_windows": 56,
+          "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates.",
+          "accuracy": 0.9587873045949786,
+          "specificity": 0.9625304136253041,
+          "balanced_accuracy": 0.8919794925269378
+        },
+        "event_metrics": {
+          "labelled_fall_intervals": 10,
+          "detected_fall_intervals": 10,
+          "event_recall": 1.0,
+          "false_events_in_nonfall_recordings": 15,
+          "scored_nonfall_seconds": 449.282846,
+          "false_events_per_scored_nonfall_hour": 120.19154632936954,
+          "median_delay_from_tagged_onset_s": 0.19853300000000007,
+          "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+        }
+      },
+      "random_forest": {
+        "window_metrics": {
+          "precision": 0.49206349206349204,
+          "recall": 0.5535714285714286,
+          "f1": 0.5210084033613446,
+          "f2": 0.5400696864111498,
+          "confusion_matrix": [
+            [
+              2023,
+              32
+            ],
+            [
+              25,
+              31
+            ]
+          ],
+          "windows": 2111,
+          "fall_windows": 56,
+          "note": "Window-level metrics on overlapping causal windows; not independent event-level estimates.",
+          "accuracy": 0.9729985788725722,
+          "specificity": 0.9844282238442822,
+          "balanced_accuracy": 0.7689998262078555
+        },
+        "event_metrics": {
+          "labelled_fall_intervals": 10,
+          "detected_fall_intervals": 10,
+          "event_recall": 1.0,
+          "false_events_in_nonfall_recordings": 4,
+          "scored_nonfall_seconds": 449.282846,
+          "false_events_per_scored_nonfall_hour": 32.05107902116521,
+          "median_delay_from_tagged_onset_s": 0.23858849999999998,
+          "protocol": "Merge positive decisions within 2 s. Match alarm groups one-to-one to a known fall-tag interval through 1 s after its end. Exposure sums up to 0.25 s following each eligible window endpoint in non-fall trials. This is short laboratory exposure, before cancellation, and excludes unscored time."
+        }
+      }
+    }
+  },
+  "checks": {
+    "portable_predictions_match_sklearn": true,
+    "tolerance": 1e-12,
+    "participant_split": {
+      "train": [
+        1,
+        2,
+        3
+      ],
+      "validation": [
+        4
+      ],
+      "reused_test": [
+        5,
+        6
+      ]
+    },
+    "activity_labels_used_as_features": false
+  },
+  "limits": [
+    "Exploratory comparison on previously inspected subjects 5-6. Not a new independent final test.",
+    "Only six participants, one trial per activity, and overlapping windows; not independent events.",
+    "Laboratory belt data, not construction-worker or live-hardware validation.",
+    "Unknown labels and unsuitable timing windows excluded by the original policy.",
+    "A forest score is not a calibrated probability; accuracy alone is misleading on this imbalanced subset.",
+    "No architecture or threshold was adjusted after this comparison evaluation.",
+    "Model size and actual wearable deployment need separate assessment."
+  ]
+}
